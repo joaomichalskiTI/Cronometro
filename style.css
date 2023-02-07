@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,43 +8,56 @@ body{
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-color: blanchedalmond;
+    background-color: #010127;
 }
 .parag{
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 100px;
+    color: rgb(39, 245, 39);
+    font-family: 'Black Ops One', cursive;
+    letter-spacing: 2px;
+
+
 }
+
 .mostrador{
     height: 100px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
+    font-family: 'Black Ops One', cursive;
+    cursor: pointer;
+    background: transparent;
 }
+
 span{
-    font-size: 30px;
+    font-size: 45px;
+    color: rgb(39, 245, 39);
 }
 .buttons{
     height:50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3px;
+    gap: 6px;
 }
 button{
     cursor: pointer;
     padding: 3px;
     border-radius: 7px;
-    border: solid rgb(51, 50, 50); 
-    color: black;
-    background-color: white;
+    border: 1px solid  rgb(39, 245, 39);
+    color: rgb(39, 245, 39);
+    background-color: transparent;
 }
 button:hover{
     background-color: black;
     transition: 0.4s;
     color: white;
-    border: solid rgb(122, 118, 118);
+    border: 1px solid rgb(122, 118, 118);
 }
 .div1{
     height: 100vh;
@@ -51,4 +65,8 @@ button:hover{
     flex-direction: column;
     justify-content: center;
 }
-
+#millisecond{
+    display: flex;
+    justify-content: row;
+    width: 45px;
+}
